@@ -73,6 +73,10 @@ form-check-label{
      font-size: 14px;
    
 }
+.eight p{
+    border-radius: 16px;
+    border: 1px solid;
+}
 @media screen and (max-width:768px) {
 
     .forms {
