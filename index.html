@@ -1,0 +1,284 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap form</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&"/>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&" />
+</head>
+<body>
+      <section>
+          <div class="container">
+            <form class="forms d-flex gap-3 mt-4">
+              <div class="card" style="width: 50%;">
+                <div class="card_body  d-flex flex-column gap-4 m-4">
+                  <h3>Basic Details</h3>
+                  <div class="upload">
+                      <label for="input_img"
+                            class="form_label label_upload p-3 align-items-center d-flex justify-content-center flex-column gap-2">
+
+                             <span class="material-symbols-outlined">
+                      upload
+                    </span>
+                            <h5> Upload Image</h5>
+                            <h6>PNG,JPG file are allowed</h6>
+                        </label>
+                        <div class="hide"><
+                        <input type="file" class="form-control input_upload " id="input_img">
+                  </div>
+                  </div>
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <label for="input" class="form-label label_label pb-4 m-0">Salutaion</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>select</option>
+                        <option value="1">Mr</option>
+                        <option value="2">Mrs</option>
+                    </select> 
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
+                    <label for="input_fname" class="form_label label_label pb-4 m-0 ">First Name</label>
+                                <input type="text" class="form-control  " id="input_fname" placeholder="john"
+                                    aria-label="First name">
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <label for="input_lname" class="form_label label_label pb-4 m-0 ">last Name</label>
+                                <input type="text" class="form-control " id="input_lname" placeholder="doe"
+                                    aria-label="last name">
+                  </div>
+                </div>
+
+
+
+                <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <label for="input_fname" class="form_label label_label pb-4 m-0 ">Email address</label>
+                                <input type="email" class="form-control " id="input_fname" placeholder="mail@simmmple.com"
+                                    aria-label="First name">
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <label for="input_lname" class="form_label label_label pb-4 m-0  ">Mobile number</label>
+                                <input type="number" class="form-control  " id="input_lname" placeholder="enter mobile number"
+                                    aria-label="last name">
+                  </div>
+                </div>
+                
+               
+
+
+
+               <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <label for="input_fname" class="form_label label_label pb-4 m-0 ">Date of Birth</label>
+                              <input type="date" class="form-control" id="input_fname" placeholder="select date of birth"
+                                  aria-label="First name">
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <label for="Gender" class="form_label label_label pb-4 m-0 ">Gender</label>
+                <div class="col">
+                  <!-- <label for="Gender" class="form_label label_label pb-2 m-0 ">Gender</label> -->
+                  <div class="form-check form-check-inline mt-lg-3 ">
+                    <input class="form-check-input " type="radio" name="inlineRadioOptions"
+                        id="inlineRadio1" value="option1">
+                    <label class="form-check-label " for="inlineRadio1">Male</label>
+                </div>
+                <div class="form-check form-check-inline  ">
+                    <input class="form-check-input  " type="radio" name="inlineRadioOptions"
+                        id="inlineRadio2" value="option2">
+                    <label class="form-check-label " for="inlineRadio2">Female</label>
+                </div>
+                </div>
+                </div>
+               </div>
+
+
+
+             <address>
+              <div class="row">
+                <label for="input_fname" class="form_label label_label pb-2 m-0 ">address</label>
+                <input type="text" class="form-control  " id="input_lname" placeholder="enter address"
+                        aria-label="last name">
+              </div>
+              <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <label for="input" class="form-label label_label pb-4 m-0 ">country</label>
+                  <select id="inputState" class="form-select ">
+                      <option selected>select country</option>
+                      <option value="1">india</option>
+                      <option value="2">usa</option>
+                      <option value="3">uk</option>
+                  </select> 
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <label for="input" class="form-label label_label pb-4 m-0 ">state</label>
+                  <select id="inputState" class="form-select ">
+                      <option selected>select state</option>
+                      <option value="1">kerala</option>
+                      
+                  </select> 
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <label for="input_fname" class="form_label label_label pb-4 m-0 ">city</label>
+                  <input type="name" class="form-control  " id="input_fname" placeholder="enter city"
+                      aria-label="First name">
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <label for="input_fname" class="form_label label_label pb-4 m-0 ">pin/zip</label>
+                  <input type="name" class="form-control  " id="input_fname" placeholder="enter pin/zip"
+                      aria-label="First name">
+                </div>
+              </div>
+            </address>
+                </div>
+             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+             <div class="card" style="width: 50%;">
+              <div class="card_body d-flex flex-column gap-4 m-4">
+               <h3>Advance Detailes</h3>
+               <div class="alert alert-warning" role="alert">
+                <h6>Sample warning messages - alert</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fermentum felis.
+                    Aliquam erat volutpat. Donec faucibus mauris vel nibh sodales feugiat. Donec suscipit
+                    felis vitae orci porttitor congue.</p>
+            </div>
+            
+
+
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <label for="customRange1" class="form-label label_label">Height</label>
+                <div class="eight d-flex">
+                <input type="range" class="form-range" id="customRange1">
+                <p>160cm</p>
+              </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <label for="customRange1" class="form-label label_label">weight</label>
+                <div class="eight d-flex">
+                <input type="range" class="form-range" id="customRange1">
+                <p>68kg</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row ">
+              <div class="col-xl-5 col-sm-12 col-12">
+                  <label for="exampleColorInput" class="form-label label_label  pb-4 m-0">Color picker</label>
+                  <input type="color" class="form-control form-control-color" id="exampleColorInput"
+                      value="#CB5D9F" title="Choose your color">
+              </div>
+              <div class="col d-flex flex-column flex-grow-1">
+                  <legend class="col-form-label label_label pt-0">Choose Templates </legend>
+                  <div class="  gap-1 pt-4 d-flex flex-row justify-content-between ">
+                      <div class="form-check form-check-inline me-0  ">
+                          <input class="form-check-input border_box" type="checkbox" id="inlineCheckbox1"
+                              value="option1">
+                          <label class="form-check-label edit pt-1  " for="inlineCheckbox1">Template
+                              1</label>
+                      </div>
+                      <div class="form-check form-check-inline me-0 ">
+                          <input class="form-check-input border_box" type="checkbox" id="inlineCheckbox2"
+                              value="option2">
+                          <label class="form-check-label edit pt-1 " for="inlineCheckbox2">Template
+                              2</label>
+                      </div>
+                      <div class="form-check form-check-inline me-0 ">
+                          <input class="form-check-input border_box" type="checkbox" id="inlineCheckbox2"
+                              value="option2">
+                          <label class="form-check-label edit pt-1" for="inlineCheckbox3">Template
+                              3</label>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+                <div class="row">
+                  <div class="col">
+                    <label for="input_lname" class="form_label label_label  pb-4 m-0 ">Qulification</label>
+                    <input type="text" class="form-control  " id="input_lname" placeholder="enter Qulification"
+                        aria-label="last name">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <label for="input_lname" class="form_label label_label pb-4 m-0 ">About your self</label>
+                    <textarea class="form-control" rows="5" placeholder="enter here..."></textarea>
+                  </div>
+                </div>
+
+       
+                <div class="row">
+                  <div class="col">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                     <label class="form-check-label pb-4 m-0" for="flexCheckChecked">
+                      I Accept Terms & Conditions
+                     </label>
+
+                  </div>
+                </div>
+
+
+
+
+
+              </div>
+              </div>
+
+
+              
+
+
+
+
+
+            </form>
+          </div>
+
+
+          <div class="container">
+            <div class="form bg-white rounded-3 ">
+                <div class="row  ">
+                    <div>
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-end m-4">
+                            <button class="btn btn_outline me-sm-2 border-0" type="button">Cancel</button>
+                            <button class="btn btn_bg py-3 px-4 " type="button">Save Changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+      </section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
